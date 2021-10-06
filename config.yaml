@@ -1,0 +1,13 @@
+augmentation:
+  channel_shift_range: 0.2
+  width_shift_range: 0.2 # fraction of total width <1
+  height_shift_range: 0.2 # fraction of total height <1
+  zoom_range: 0.2 # [1-zoom_range, 1+zoom_range]
+  hue: 0.2 # between 0 and 1
+  saturation: 0.2 # between 0 and 1
+  contrast: 0.2 # between 0 and 1
+  blur: 2 # sigma range for gaussian blur
+  brightness: 0.2 # between 0 and 1
+
+input_dir: ./images/
+output_dir: ./output/
